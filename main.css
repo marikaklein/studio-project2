@@ -1,0 +1,227 @@
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 600px;
+}
+
+
+nav {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  /* 
+  if we did this instead of the template it would be a problem:
+  grid-auto-flow: column;
+  */
+  font: 120% system-ui;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  font-weight: 600;
+}
+
+mark {
+  background-color: white;
+  color: #8A7250;
+}
+
+del {
+    text-decoration: line-through;
+    background-color: #7C6242;
+    color: brown;
+}
+
+/* styling */
+
+h1 {
+	position: absolute;
+	left: 100px;
+	top: 75px;
+	font-family: 'Sorts Mill Goudy', serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+
+.title {
+	position: absolute;
+	width: 994px;
+	height: 119px;
+	left: 30px;
+	top: -45px;
+	font-family: 'Sorts Mill Goudy', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 80px;
+	line-height: 120px;
+	color: #FFFFFF;
+}
+
+.author {
+	position: absolute;
+	left: 1156px;
+	top: 45px;
+	font-family: 'Prompt', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 48px;
+	color: #FFFFFF;
+}
+
+/* story text */
+
+p.b {
+	white-space: normal;
+	margin: auto;
+	width: 1350px;
+	height: 1400px;
+	left: 40px;
+	top: 350px;
+	font-family: Prompt;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16.5px;
+	line-height: 133%;
+	color: #99846D;
+	opacity: 100%;
+	text-indent: 10px;
+}
+
+.test:hover {
+	color: white;
+	opacity: 100%;
+}
+
+/* story text */
+
+.home {
+	position: absolute;
+	width: 45px;
+	height: 192px;
+	left: 1208px;
+	top: 30px;
+	font-family: Prompt;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 48px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.first {
+	position: absolute;
+	width: 45px;
+	height: 192px;
+	left: 1260px;
+	top: 30px;
+	font-family: Prompt;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 48px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.second {
+	position: absolute;
+	width: 45px;
+	height: 192px;
+	left: 1310px;
+	top: 30px;
+	font-family: Prompt;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 48px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.third {
+	position: absolute;
+	width: 45px;
+	height: 192px;
+	left: 1355px;
+	top: 30px;
+	font-family: Prompt;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 48px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/* SMALL: This CSS applies to screens <= 500px wide */
+@media only screen and (max-width: 500px) {
+
+	h1 {
+		font-size: 35px;
+	}
+
+	.title {
+		font-size: 30px;
+		left: 60px;
+	}
+
+	.author {
+		left: 155px;
+		font-size: 20px;
+		line-height: 48px;
+		color: #FFFFFF;
+	}
+
+	/* story text */
+
+	p.b {
+		width: 450px;
+		padding: 10px;
+		font-size: 15px;
+		line-height: 135%;
+	}
+
+	/* story text */
+
+	.home {
+		left: 150px;
+		top: 100px;
+		font-size: 20px;
+	}
+
+	.first {
+		left: 197px;
+		top: 100px;
+		font-size: 20px;
+	}
+
+	.second {
+		left: 247px;
+		top: 100px;
+		font-size: 20px;
+	}
+
+	.third {
+		left: 290px;
+		top: 100px;
+		font-size: 20px;
+	}
+}
+
+
+
